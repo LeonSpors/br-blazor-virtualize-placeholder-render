@@ -1,0 +1,43 @@
+﻿@page "/"
+
+<Virtualize ItemsProvider="@LoadEmployees">
+    <ItemContent>
+        <p>
+            @context
+        </p>
+    </ItemContent>
+    <Placeholder>
+        <p>
+            Loading&hellip;
+        </p>
+    </Placeholder>
+</Virtualize>
+
+@code {
+    private List<string> _employees;
+
+    protected override void OnInitialized()
+    {
+        _employees = new();
+
+        for (int i = 0; i < 500; i++)
+        {
+            string id = Guid.NewGuid().ToString();
+            _employees.Add(id);
+        }
+    }
+
+    private async ValueTask<ItemsProviderResult<string>> LoadEmployees(ItemsProviderRequest request)
+    {
+        List<string> employeeGroup = new();
+
+        for(int i = request.StartIndex; i <= request.Count; i++)
+        {
+            string id = _employees.ElementAt(i);
+            employeeGroup.Add(id);
+            await Task.Delay(500);
+        }
+
+        return new ItemsProviderResult<string>(employeeGroup, _employees.Count);
+    }
+}

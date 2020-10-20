@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\leon.spors\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\leon.spors\\.nuget\\packages"
+    ]
+  }
+}

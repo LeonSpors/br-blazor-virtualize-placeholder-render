@@ -1,0 +1,12 @@
+C:\Users\leon.spors\source\repos\VirtualizePlaceholderTest\Shared\bin\Debug\net5.0\VirtualizePlaceholderTest.Shared.deps.json
+C:\Users\leon.spors\source\repos\VirtualizePlaceholderTest\Shared\bin\Debug\net5.0\VirtualizePlaceholderTest.Shared.dll
+C:\Users\leon.spors\source\repos\VirtualizePlaceholderTest\Shared\bin\Debug\net5.0\ref\VirtualizePlaceholderTest.Shared.dll
+C:\Users\leon.spors\source\repos\VirtualizePlaceholderTest\Shared\bin\Debug\net5.0\VirtualizePlaceholderTest.Shared.pdb
+C:\Users\leon.spors\source\repos\VirtualizePlaceholderTest\Shared\obj\Debug\net5.0\VirtualizePlaceholderTest.Shared.csprojAssemblyReference.cache
+C:\Users\leon.spors\source\repos\VirtualizePlaceholderTest\Shared\obj\Debug\net5.0\VirtualizePlaceholderTest.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leon.spors\source\repos\VirtualizePlaceholderTest\Shared\obj\Debug\net5.0\VirtualizePlaceholderTest.Shared.AssemblyInfoInputs.cache
+C:\Users\leon.spors\source\repos\VirtualizePlaceholderTest\Shared\obj\Debug\net5.0\VirtualizePlaceholderTest.Shared.AssemblyInfo.cs
+C:\Users\leon.spors\source\repos\VirtualizePlaceholderTest\Shared\obj\Debug\net5.0\VirtualizePlaceholderTest.Shared.csproj.CoreCompileInputs.cache
+C:\Users\leon.spors\source\repos\VirtualizePlaceholderTest\Shared\obj\Debug\net5.0\VirtualizePlaceholderTest.Shared.dll
+C:\Users\leon.spors\source\repos\VirtualizePlaceholderTest\Shared\obj\Debug\net5.0\ref\VirtualizePlaceholderTest.Shared.dll
+C:\Users\leon.spors\source\repos\VirtualizePlaceholderTest\Shared\obj\Debug\net5.0\VirtualizePlaceholderTest.Shared.pdb

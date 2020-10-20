@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Server\\VirtualizePlaceholderTest.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Client\\VirtualizePlaceholderTest.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Client\\VirtualizePlaceholderTest.Client.csproj",
+        "projectName": "VirtualizePlaceholderTest.Client",
+        "projectPath": "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Client\\VirtualizePlaceholderTest.Client.csproj",
+        "packagesPath": "C:\\Users\\leon.spors\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leon.spors\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "K:\\Developer\\KevoxNuget": {},
+          "K:\\Developer\\Leon\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Shared\\VirtualizePlaceholderTest.Shared.csproj": {
+                "projectPath": "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Shared\\VirtualizePlaceholderTest.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.17, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.17, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.0-rc.2.20475.5, 5.0.0-rc.2.20475.5]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Server\\VirtualizePlaceholderTest.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Server\\VirtualizePlaceholderTest.Server.csproj",
+        "projectName": "VirtualizePlaceholderTest.Server",
+        "projectPath": "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Server\\VirtualizePlaceholderTest.Server.csproj",
+        "packagesPath": "C:\\Users\\leon.spors\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leon.spors\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "K:\\Developer\\KevoxNuget": {},
+          "K:\\Developer\\Leon\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Client\\VirtualizePlaceholderTest.Client.csproj": {
+                "projectPath": "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Client\\VirtualizePlaceholderTest.Client.csproj"
+              },
+              "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Shared\\VirtualizePlaceholderTest.Shared.csproj": {
+                "projectPath": "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Shared\\VirtualizePlaceholderTest.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Shared\\VirtualizePlaceholderTest.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Shared\\VirtualizePlaceholderTest.Shared.csproj",
+        "projectName": "VirtualizePlaceholderTest.Shared",
+        "projectPath": "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Shared\\VirtualizePlaceholderTest.Shared.csproj",
+        "packagesPath": "C:\\Users\\leon.spors\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leon.spors\\source\\repos\\VirtualizePlaceholderTest\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leon.spors\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "K:\\Developer\\KevoxNuget": {},
+          "K:\\Developer\\Leon\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
